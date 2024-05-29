@@ -1,0 +1,60 @@
+/* Reset margins and paddings for the entire document */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      height: 50vh;
+    }
+  }
+  
+  /* Footer Styles */
+  footer {
+    padding: 2rem 0;
+  
+    h5 {
+      margin-bottom: 1rem;
+    }
+  
+    address {
+      font-style: normal;
+    }
+  
+    @media (max-width: 768px) {
+      .col-md-6 {
+        display: none;
+      }
+    }
+  }
+  
+  /* General Body Styling */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Gallery Styling */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  /* Title Section Styling */
+  .title {
+    height: 50vh;
+    background: #343a40; /* Dark background for contrast */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
